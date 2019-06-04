@@ -1,0 +1,22 @@
+{
+  "name": "secretsmanager",
+  "version": "0.0.1",
+  "description": "Exports secrets from AWS secrets manager",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "secrets",
+    "manage",
+    "secrets",
+    "export",
+    "secrets"
+  ],
+  "author": "Jonathan Duarte <jonathan.duarte@rocketmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.467.0",
+    "minimist": "^1.2.0"
+  }
+}
