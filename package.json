@@ -1,6 +1,6 @@
 {
   "name": "node-secretsmanager",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Exports secrets from AWS secrets manager",
   "main": "index.js",
   "scripts": {
