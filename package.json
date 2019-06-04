@@ -13,6 +13,9 @@
     "export",
     "secrets"
   ],
+  "bin": {
+    "node-secretsmanager": "index.js"
+  },
   "author": "Jonathan Duarte <jonathan.duarte@rocketmail.com>",
   "license": "MIT",
   "dependencies": {

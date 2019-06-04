@@ -1,6 +1,11 @@
+#!/usr/bin/env node
+
+var path = require('path');
+var programName = path.basename(process.argv[1]);
+
 const banner = () => {
   const message = `
-  Usage: secretsmanager [OPTIONS] SECRET_NAME
+  Usage: ${programName} [OPTIONS] SECRET_NAME
 
   -h, --help:
    show help
@@ -35,7 +40,7 @@ if (argv.help) {
 const secretName = (argv._[0] || process.env.ENV_SECRETSMANAGER_SECRET_NAME)
 
 if (!secretName) {
-  console.error('Usage: secretsmanager [OPTIONS] SECRET_NAME');
+  console.error(`Usage: ${programName} [OPTIONS] SECRET_NAME`);
   process.exit(1);
 }
 
