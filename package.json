@@ -1,6 +1,6 @@
 {
   "name": "node-secretsmanager",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Exports secrets from AWS secrets manager",
   "main": "index.js",
   "scripts": {
@@ -20,6 +20,6 @@
   "license": "MIT",
   "dependencies": {
     "aws-sdk": "^2.467.0",
-    "minimist": "^1.2.0"
+    "minimist": ">=1.2.0"
   }
 }
